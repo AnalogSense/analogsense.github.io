@@ -19,6 +19,6 @@ There are a few libraries ready for you to use:
 -|-|-|-
 Type | Dynamic library using C ABI | C++ class | JavaScript library
 Update Model | Needs to be updated by user | Requires recompile | CDN or vendored
-Device Support | Only Wooting by default; all devices\* with [our plugin](https://github.com/calamity-inc/universal-analog-plugin) | All devices\* | Work in progress
+Device Support | Only Wooting by default; all devices\* with [our plugin](https://github.com/calamity-inc/universal-analog-plugin) | All devices\* | Wooting, Razer, DrunkDeer
 
 \* "All devices" refers to every analog keyboard that exposes the analog data that we know of, aka. [The List](https://github.com/calamity-inc/universal-analog-plugin/issues/1).
