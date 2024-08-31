@@ -9,6 +9,6 @@
 
 ### Setup
 
-1. Download [the latest release](https://github.com/Sainan/AnalogSense/releases/latest/download/x64.zip)
+1. Download [the latest release](https://github.com/AnalogSense/AnalogSense.asi/releases/latest/download/x64.zip)
 2. Locate Cyberpunk 2077's **bin/x64** folder. This folder contains the **Cyberpunk2077.exe**.
 3. Drop the dinput8.dll & AnalogSense.asi into this folder.
