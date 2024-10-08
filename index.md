@@ -4,6 +4,8 @@ Reading analog keyboard input and making it useful.
 
 - [Cyberpunk 2077](cyberpunk-2077)
 - [Grand Theft Auto V](gta-v)
+- [Kerbal Space Program](https://github.com/Kristallranke/KSPW00tNow)
+- [Space Engineers](https://github.com/Garbius/WootingPlugin)
 
 ## Visualize your analog keyboard input
 
