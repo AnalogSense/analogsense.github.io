@@ -1,0 +1,15 @@
+# Wooting
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="31e3", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="31e3", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="ff01", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="ff01", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="ff02", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="ff02", TAG+="uaccess"
+
+# DrunkDeer
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="352d", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="352d", TAG+="uaccess"
+
+# Keychron
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3434", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="3434", TAG+="uaccess"
