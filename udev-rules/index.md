@@ -1,6 +1,6 @@
 # udev rules for analog keyboards
 
-If you want programs to be able to access your analog keyboard without having to run it as root, you need to set up udev rules that allow access to it.
+If you want programs to be able to access your analog keyboard without having to run them as root, you need to set up udev rules that allow access to it.
 
 This can easily be done with these 3 commands:
 ```bash
