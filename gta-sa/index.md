@@ -1,4 +1,4 @@
-# Leverage analog keyboard input in Grand Theft Auto: San Andreas (GTA SA)
+# Analog keyboard input in Grand Theft Auto: San Andreas (GTA SA)
 
 Back in 2018, Silent made a proof-of-concept version of GInput for Wooting's CODE IT contest. You can [read more about it in his blog.](https://cookieplmonster.github.io/2018/10/24/ginput-wooting-code-it/)
 

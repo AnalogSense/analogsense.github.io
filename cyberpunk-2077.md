@@ -1,4 +1,4 @@
-# Leverage analog keyboard input in Cyberpunk 2077
+# Analog keyboard input in Cyberpunk 2077
 
 ## Using AnalogSense.asi
 

@@ -1,4 +1,4 @@
-# Leverage analog keyboard input in Grand Theft Auto V
+# Analog keyboard input in Grand Theft Auto V
 
 ## Using AnalogSense.asi
 
