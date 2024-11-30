@@ -15,6 +15,10 @@
 
 If you've already used other ASI mods, you may already have a dinput8.dll or are using another ASI loader, in which case you are free to discard the bundled dinput8.dll.
 
+### Configuration (Response Curve)
+
+By default, your input is mapped with a linear curve. However, you can add additional points to `%programdata%\AnalogSense\curve_points.json`. You can use [this online tool](https://analogsense.org/Response-Curve-Configurator/) to generate this file for you — it also visualizes & simulates the response curve.
+
 ## Using Stand
 
 [Stand](https://stand.sh/) is a popular mod menu for GTA V that is free to use in story mode and has its own analog keyboard support.

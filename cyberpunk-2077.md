@@ -14,3 +14,7 @@
 3. Drop the dinput8.dll & AnalogSense.asi into this folder.
 
 If you're using Cyber Engine Tweaks, you may have a "plugins" folder where you can place the ASI file, in which case you are free to discard the bundled dinput8.dll.
+
+### Configuration (Response Curve)
+
+By default, your input is mapped with a linear curve. However, you can add additional points to `%programdata%\AnalogSense\curve_points.json`. You can use [this online tool](https://analogsense.org/Response-Curve-Configurator/) to generate this file for you — it also visualizes & simulates the response curve.
