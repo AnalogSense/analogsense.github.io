@@ -21,6 +21,6 @@ Reading analog keyboard input and making it useful.
 -|-|-|-
 **[Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk)** | Dynamic library using C ABI | Needs to be updated by user | Only Wooting by default; all devices\* with [our plugin](https://github.com/AnalogSense/universal-analog-plugin)
 **[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | All devices\*
-**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | Wooting, Razer, NuPhy, DrunkDeer
+**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | All devices\*
 
-\* "All devices" refers to every analog keyboard that exposes the analog data that we know of, aka. [The List](https://github.com/AnalogSense/universal-analog-plugin/issues/1).
+\* "All devices" refers to every analog keyboard that exposes analog data (that we know of). See [The List](https://github.com/AnalogSense/universal-analog-plugin/issues/1) for more information.
