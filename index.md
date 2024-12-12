@@ -19,8 +19,10 @@ Reading analog keyboard input and making it useful.
 
 ​ | Type | Update Model | Device Support
 -|-|-|-
-**[Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk)** | Dynamic library using C ABI | Needs to be updated by user | Only Wooting by default; all devices\* with [our plugin](https://github.com/AnalogSense/universal-analog-plugin)
-**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | All devices\*
-**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | All devices\*
+**[Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk)** | Dynamic library using C ABI | Needs to be updated by user | Only Wooting by default; [our plugin](https://github.com/AnalogSense/universal-analog-plugin) provides all devices supported by soup::AnalogKeyboard
+**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE
+**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron
 
-\* "All devices" refers to every analog keyboard that exposes analog data (that we know of). See [The List](https://github.com/AnalogSense/universal-analog-plugin/issues/1) for more information.
+## Our list of analog keyboards
+
+We have what we simply refer to as [The List](https://github.com/AnalogSense/universal-analog-plugin/issues/1). This lists all keyboards we know provide their analog data, keyboards we are interested in, and keyboards that unfortunately do not provide their analog data.
