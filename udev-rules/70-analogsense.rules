@@ -13,3 +13,11 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="352d", TAG+="uaccess"
 # Keychron
 SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3434", TAG+="uaccess"
 SUBSYSTEM=="usb", ATTRS{idVendor}=="3434", TAG+="uaccess"
+
+# NuPhy
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="19f5", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="19f5", TAG+="uaccess"
+
+# Madlions
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="373b", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="373b", TAG+="uaccess"
