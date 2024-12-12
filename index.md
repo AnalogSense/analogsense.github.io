@@ -20,8 +20,8 @@ Reading analog keyboard input and making it useful.
 ​ | Type | Update Model | Device Support
 -|-|-|-
 **[Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk)** | Dynamic library using C ABI | Needs to be updated by user | Only Wooting by default; [our plugin](https://github.com/AnalogSense/universal-analog-plugin) provides all devices supported by soup::AnalogKeyboard
-**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE
-**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE
+**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE, Madlions MAD68HE
+**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE, Madlions MAD68HE
 
 ## Our list of analog keyboards
 
