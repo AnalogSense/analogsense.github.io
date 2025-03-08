@@ -16,6 +16,8 @@ Some keyboards do support analog input but with severe limitations. To allow you
   - [ANSI](keychron_k2_he_ansi_rgb_via.bin)
   - [ISO](keychron_k2_he_iso_rgb_via.bin)
   - [JIS](keychron_k2_he_jis_rgb_via.bin)
+- Lemokey P1 HE
+  - [ANSI](lemokey_p1_he_ansi_via.bin)
 
 ## How to flash custom firmare
 
@@ -35,13 +37,17 @@ These refer to different layouts of the keys:
 
 ## What changes did you make? How do I compile it myself?
 
-You can compare the changes to the upstream Keychron HE firmware [here](https://github.com/Keychron/qmk_firmware/compare/hall_effect_playground...AnalogSense:qmk_firmware:keychron-far).
-
-The .bin files we provide are the result of executing the following on the keychron-far branch:
+For Keychron, the .bin files we provide are the result of executing the following on the [keychron-far branch](https://github.com/Keychron/qmk_firmware/compare/hall_effect_playground...AnalogSense:qmk_firmware:keychron-far):
 
 ```bash
 make -j keychron/q1_he/ansi_encoder:via && make -j keychron/q1_he/iso_encoder:via && make -j keychron/q1_he/jis_encoder:via
 make -j keychron/q3_he/ansi_encoder:via
 make -j keychron/q5_he/ansi_encoder:via
 make -j keychron/k2_he/ansi_rgb:via && make -j keychron/k2_he/iso_rgb:via && make -j keychron/k2_he/jis_rgb:via
+```
+
+For Lemokey, the .bin files we provide are the result of executing the following on the [lemokey-far branch](https://github.com/Keychron/qmk_firmware/compare/hall_effect_playground...AnalogSense:qmk_firmware:lemokey-far):
+
+```bash
+make -j lemokey/p1_he/ansi:via
 ```
