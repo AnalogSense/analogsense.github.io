@@ -13,15 +13,15 @@ Reading analog keyboard input and making it useful.
 ​ | Type | Shows Digital Input (e.g. to see Rapid Trigger) | Device Support |
 -|-|-|-
 **[Woot-verlay](https://github.com/DjCrqss/Woot-verlay)** | Website connecting to local or LAN server | Yes | Uses [Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk) so needs [a plugin for other devices](https://github.com/AnalogSense/universal-analog-plugin)
-**[AnalogSense.js Demo](https://analogsense.org/JavaScript-SDK/demo)** | Website using Chromium-specific API | No | Wooting, Razer, NuPhy, DrunkDeer
+**[AnalogSense.js Demo](https://analogsense.org/JavaScript-SDK/demo)** | Website using Chromium-specific API | No | [See here](https://github.com/AnalogSense/JavaScript-SDK?tab=readme-ov-file#supported-keyboardsdevices)
 
 ## Add analog keyboard input to your own apps & games
 
 ​ | Type | Update Model | Device Support
 -|-|-|-
 **[Wooting Analog SDK](https://github.com/WootingKb/wooting-analog-sdk)** | Dynamic library using C ABI | Needs to be updated by user | Only Wooting by default; [our plugin](https://github.com/AnalogSense/universal-analog-plugin) provides all devices supported by soup::AnalogKeyboard
-**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE, Madlions MAD68HE
-**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | Wooting, Razer Huntsman, NuPhy, DrunkDeer, Keychron, Madlions MAD60HE, Madlions MAD68HE
+**[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | [See here](https://github.com/AnalogSense/universal-analog-plugin?tab=readme-ov-file#supported-keyboardsdevices)
+**[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | [See here](https://github.com/AnalogSense/JavaScript-SDK?tab=readme-ov-file#supported-keyboardsdevices)
 
 ## Our list of analog keyboards
 
