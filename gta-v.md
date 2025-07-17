@@ -9,11 +9,10 @@
 
 ### Setup
 
-1. Download [the latest release](https://github.com/AnalogSense/AnalogSense.asi/releases/latest/download/x64.zip)
-2. Locate Grand Theft Auto V's installation folder. This folder contains the **GTA5.exe**.
-3. Drop the dinput8.dll & AnalogSense.asi into this folder.
-
-If you've already used other ASI mods, you may already have a dinput8.dll or are using another ASI loader, in which case you are free to discard the bundled dinput8.dll.
+1. Locate Grand Theft Auto V's installation folder. This folder contains **GTA5.exe** or **GTA5_Enhanced.exe**.
+2. Ensure there is an ASI loader within this folder — [dinput8.dll](https://third-party.files-that-make-your-head-explode.com/ultimate-asi-loader/8.3.0/dinput8.dll) for legacy, [input1_4.dll](https://third-party.files-that-make-your-head-explode.com/ultimate-asi-loader/8.3.0/xinput1_4.dll) for enhanced.
+3. Download [the latest version of AnalogSense.asi](https://github.com/AnalogSense/AnalogSense.asi/releases/latest/download/AnalogSense.asi).
+4. Drop the AnalogSense.asi into this folder.
 
 ### Configuration (Response Curve)
 

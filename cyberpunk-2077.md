@@ -9,11 +9,9 @@
 
 ### Setup
 
-1. Download [the latest release](https://github.com/AnalogSense/AnalogSense.asi/releases/latest/download/x64.zip)
+1. Download [the latest version of AnalogSense.asi](https://github.com/AnalogSense/AnalogSense.asi/releases/latest/download/AnalogSense.asi).
 2. Locate Cyberpunk 2077's **bin/x64** folder. This folder contains the **Cyberpunk2077.exe**.
-3. Drop the dinput8.dll & AnalogSense.asi into this folder.
-
-If you're using Cyber Engine Tweaks, you may have a "plugins" folder where you can place the ASI file, in which case you are free to discard the bundled dinput8.dll.
+3. If you're using Cyber Engine Tweaks, you may have a "plugins" folder where you can place the AnalogSense.asi. Otherwise, download [dinput8.dll](https://third-party.files-that-make-your-head-explode.com/ultimate-asi-loader/8.3.0/dinput8.dll) and drop it next to the EXE along with AnalogSense.asi.
 
 ### Configuration (Response Curve)
 
