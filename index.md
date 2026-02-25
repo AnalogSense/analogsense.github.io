@@ -23,6 +23,10 @@ Reading analog keyboard input and making it useful.
 **[soup::AnalogKeyboard](https://github.com/calamity-inc/Soup/blob/senpai/soup/AnalogueKeyboard.cpp)** | C++ class | Requires recompile | [See here](https://github.com/AnalogSense/universal-analog-plugin?tab=readme-ov-file#supported-keyboardsdevices)
 **[AnalogSense.js](https://github.com/AnalogSense/JavaScript-SDK)** | JavaScript library | CDN or vendored | [See here](https://github.com/AnalogSense/JavaScript-SDK?tab=readme-ov-file#supported-keyboardsdevices)
 
+## Translate analog input to a virtual gamepad
+
+- **[HallJoy](https://github.com/PashOK7/HallJoy)** - Windows app that maps analog keyboard input (and optional mouse-to-stick) to virtual Xbox 360 gamepads.
+
 ## Our list of analog keyboards
 
 We have what we simply refer to as [The List](https://github.com/AnalogSense/universal-analog-plugin/issues/1). This lists all keyboards we know provide their analog data, keyboards we are interested in, and keyboards that unfortunately do not provide their analog data.
